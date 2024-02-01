@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./img/logo.png" alt="logoFM" width="58px" height="60px">
+        </div>
+        <div class="nav">
+            <ul class="navbar-links" id="navbar-links">
+                <li><a href="#home" class="btn active" onclick="animate">Home</a></li>
+                <li><a href="#about" class="btn">About</a></li>
+                <li><a href="#profile" class="btn">Profile</a></li>
+                <li><a href="#gallery" class="btn">Gallery</a></li>
+                <li><a href="#contact" class="btn">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu" onclick="toggleMenu()">
+            <img src="./asset/menu.svg">
+        </div>
+    </nav>
+
+    <section class="bg">
+        <div class="home" id="home">
+            <div class="nameTag">
+                <h1>Firman Maulana</h1>
+                <a href="#about" class="btnMore" onclick="enableScroll()">More</a>
+            </div>
+
+            <div class="list">
+                <div class="im">
+                    <p>Hii.. i'm Firman.</p>
+                    <p>FrondEnd Develover..</p>
+                    <p>I'm from Indonesia...</p>
+                    <div class="sosmed">
+                        <ul>
+                            <li><a href="https://www.instagram.com/firman_rusty/" target="_blank"><img src="./asset/instagram.svg"></a></li>
+                            <li><a href="https://github.com/Rusty-FM" target="_blank"><img src="./asset/github.svg"></a></li>
+                            <li><a href="https://wa.me/+62895330242438" target="_blank"><img src="./asset/whatsapp.svg"></a></li>
+                        </ul>
+                            <span><a href="https://docs.google.com/document/d/1rIzK6Xdt4V4nJ_c9q1_5IvmffgWa0H1r/edit"><img src="./asset/download.svg"></a></span>
+                    </div>
+                </div>
+                <div class="img4d">
+                    <img src="./img/4d fm.png" alt="Firman Maulana">
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section>
+        <div class="about" id="about">
+            <h1>About</h1>
+            <div class="allAbout">
+                <div class="imgAbout">
+                    <img src="./img/f 1.png">
+                </div>
+                <div>
+                    <div class="detailAbout">
+                        <p>Hai, saya Firman! Seorang pemula yang bersemangat tentang dunia pemrograman. Saya baru memulai perjalanan dalam menggali seluk-beluk coding dan senang belajar hal-hal baru setiap hari.</p>
+
+                        <p>Saat ini, saya sedang fokus belajar bahasa pemrograman javascript, dan saya sangat antusias untuk mengaplikasikan pengetahuan saya dalam membuat proyek-proyek kecil. Meskipun masih dalam tahap belajar, saya punya semangat dan tekad untuk terus meningkatkan keterampilan pemrograman saya.</p>
+    
+                    </div>
+                    <div class="iconSkill">
+                        <img src="./asset/html.svg">
+                        <img src="./asset/css.svg">
+                        <img src="./asset/javascript.svg">
+                        <img src="./asset/figma.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="profile" id="profile">
+            <div class="detailProfile">
+                <div>
+                    <h1>Profile</h1>
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Firman Maulana</td>
+                        </tr>
+                        <tr>
+                            <td>Tempat, tanggal lahir</td>
+                            <td>:</td>
+                            <td>Bogor, 15 September 1998</td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>Laki - Laki</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td>Kp.Ciletuh Cipayung Girang Megamendung Bogor</td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td>Islam</td>
+                        </tr>
+                        <tr>
+                            <td>Kewarganegaraan</td>
+                            <td>:</td>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>:</td>
+                            <td>Belum Menikah</td>
+                        </tr>
+                        <tr>
+                            <td>No.Hp</td>
+                            <td>:</td>
+                            <td>+62895330242438</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:</td>
+                            <td>firmanm962@gmail.com</td>
+                        </tr>
+                    </table>
+                        <div class="school">
+                            <h3>Riwayat Pendidikan</h3>
+                            <ul>
+                                <li>MI-Attaufiq (2006 - 2012)</li>
+                                <li>SMPN 2 Megamnedung (2012 - 2015)</li>
+                                <li>SMK Agribisnis & Agroteknologi Amerta (2015 - 2018)</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="imgProfile">
+                    <img src="./img/imgprofile.png" alt="firman">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="gallery" id="gallery">
+            <h1>GALLERY</h1>
+            <div class="imgGallery">
+                <div class="imgG"><img src="./img/Gallery/1.jpg" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/2.jpg" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/3.jpg" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/4.png" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/5.jpg" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/4.png" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/6.jpg" alt=""></div>
+                <div class="imgG"><img src="./img/Gallery/1.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="contact" id="contact">
+            <h1>CONTACT</h1>
+
+            <div class="formContact">
+                <div class="formInput">
+                    <form method="POST" 
+                    action="https://script.google.com/macros/s/AKfycbyfExTMQ9fQ98alemamVBXZ8IXmz3lHKMLOUkn_V6OnJSFZgeCAbmQ0mBjO_hOqz4WA8g/exec" id="my-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="textarea">Message:</label>
+                        <textarea name="message" id="" cols="0" rows="7"required></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Copy Right &copy;Firman Maulana</h3>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
