@@ -1,7 +1,6 @@
 function toggleMenu() {
     var navbarLinks = document.getElementById('navbar-links');
     navbarLinks.classList.toggle('show');
-    body.style.overflow = 'scroll';
 }
 
 
@@ -32,6 +31,18 @@ window.addEventListener("load", function() {
     .then(() => {
       alert("Terimakasih Pesan Anda Telah Terkirim");
     })
+  });
+});
+
+
+// Scroll Smooth
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
   });
 });
 
